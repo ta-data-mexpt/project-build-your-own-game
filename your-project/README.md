@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Combate por turnos.
+*Mauricio Peña Gonzalez*
 
-*[Your Cohort, Campus & Date]*
+*DAPT Marzo 2020, México, 12/04/2020*
 
 ## Content
 - [Project Description](#project-description)
@@ -11,7 +11,7 @@
 - [Organization](#organization)
 - [Links](#links)
 
-<a name="project-description"></a>
+<a name="Combate por turnos."></a>
 
 ## Project Description
 Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
@@ -21,16 +21,16 @@ Write a short description of your project. Write 1-2 sentences about what what y
 ## Workflow
 Outline the workflow you used in your project. What were the steps you went through?
 
+https://drive.google.com/file/d/1xtMwXXLtEQJPICeQLkgV5t8VUIQUfBoa/view?usp=sharing
+
 <a name="organization"></a>
 
 ## Organization
 How did you organize yourself? Did you use any tools?
 
+https://app.instagantt.com/r#projects/YbkKx3oCs8AowL4H1TdV/YbkKx3oCs8AowL4H1TdV
+
 <a name="links"></a>
 
 ## Links
-Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
-
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+Include the links to your repository and slides. Feel free to include any other links associated to your project. 
