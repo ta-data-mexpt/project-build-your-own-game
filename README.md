@@ -11,7 +11,7 @@
 - [Organization](#organization)
 - [Links](#links)
 
-<a name="project-description"></a>
+<a name="Combate por turnos."></a>
 
 ## Project Description
 Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
@@ -21,10 +21,14 @@ Write a short description of your project. Write 1-2 sentences about what what y
 ## Workflow
 Outline the workflow you used in your project. What were the steps you went through?
 
+https://drive.google.com/file/d/1xtMwXXLtEQJPICeQLkgV5t8VUIQUfBoa/view?usp=sharing
+
 <a name="organization"></a>
 
 ## Organization
 How did you organize yourself? Did you use any tools?
+
+https://app.instagantt.com/r#projects/YbkKx3oCs8AowL4H1TdV/YbkKx3oCs8AowL4H1TdV
 
 <a name="links"></a>
 
