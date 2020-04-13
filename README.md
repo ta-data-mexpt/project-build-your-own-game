@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Combate por turnos.
+*Mauricio Peña Gonzalez*
 
-*[Your Cohort, Campus & Date]*
+*DAPT Marzo 2020, México, 12/04/2020*
 
 ## Content
 - [Project Description](#project-description)
