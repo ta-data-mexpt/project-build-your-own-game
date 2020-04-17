@@ -80,7 +80,7 @@ Biologia10=['sanguineos','nutrientes','citoplasma','aminoacido']
 #funcion principal de juego 
 def main():
     #Comienzo del juego; el usuario selecciona modo de juego
-    
+    Imagen_Ahorcado
     jugadores=input('Selecciona el numero de jugadores escribe 1 ó 2:')
     rondas=input('Selecciona el numero de rondas escribe 1 ó 2:')
     dificultad=input('Selecciona la dificultad del juego: baja: 1 ,media: 2,alta: 3')
@@ -92,14 +92,18 @@ def main():
     
     #Crear primer ciclo para numero de jugadores, parara hasta que el numero de jugadores sea igual al seleccionado:
     while jugadores_finalizados < jugadores:
-        jugadores_finalizados+=1
+ 
         
     #Segundo ciclo , finaliza hasta que el numero de rondas sea = al numero de rondaas seleccionadas
         while rondas_completadas < rondas:
-            
-            pistas(tema,dificultad)
+
+            palabra,Frase=pistas(tema,dificultad)
+
+            print(Frase)
 
             tablero(palabra,Imagenes_ahorcado)
+
+            jugadores_finalizados+=1
 
     tablero_final()
 
@@ -131,7 +135,8 @@ def tablero (palabra,Imagenes_ahorcado):
         print("Ronda ganada")
         ronda_ganada=1
         input()
-        return ronda_ganada
+
+    return ronda_ganada
 
     tuletra=input("introduce una letra: ")
     tupalabra+=tuletra
@@ -147,14 +152,15 @@ def tablero (palabra,Imagenes_ahorcado):
 #Funcion para mostrar la pista de la palabra
 def pistas(tema,dificultad):
     
-    palabra_azar(tema,dificultad)
+    palabra=palabra_azar(tema,dificultad)
     
     if palabra == 'luna':
-        return 'Quinto satelite más grande del sistema solar'
+        Frase='Quinto satelite más grande del sistema solar')
+        
     elif palabra == 'Marte'
-        return 'Segundo planeta más pequeño del Sistema Solar'
+        Frase= 'Segundo planeta más pequeño del Sistema Solar')
 
-    return palabra
+    return palabra, Frase
 #Esta función , dependiendo el tema , lanzara la palabra para cada ronda
     
 def palabra_azar(tema,dificultad):
@@ -191,9 +197,6 @@ def palabra_azar(tema,dificultad):
         palabra=random.choice(Random10)
         return palabra    
     
-def pantala_juego(Imagenes_ahorcado,incorrecto,correcto,palabra_secreta):
-    
-
 
 
         
