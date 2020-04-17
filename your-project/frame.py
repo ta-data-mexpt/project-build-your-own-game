@@ -1,6 +1,7 @@
 import pygame
 from pygame.locals import *
 import sys
+from random import randrange
 
 pygame.init()
 
@@ -35,18 +36,20 @@ class Peleador:
                "Movimientos:",self.movimientos , "\n"
                "Vive:",self.vivo , "\n" )
 
-pl1 = Peleador(100,100,100,{'Golpe':50,'UpDefensa':25,'Descripcion':'Sube defensa propia'},'Alice Nonomura',1)
-pl2 = Peleador(80,100,120,{'Golpe':50,'DownDefensa':25,'Descripcion':'Baja defensa enemiga'},'Alan Gado',1)
-pl3 = Peleador(120,80,100,{'Golpe':50,'UpAtack':25,'Descripcion':'Sube ataque propia'},'Yugo Ogami',1)
-pl4 = Peleador(100,120,80,{'Golpe':50,'DownAtack':25,'Descripcion':'Baja ataque enemigo'},'Jenny Burtory',1)
+AliceNonomura = Peleador(100,100,100,{'Golpe':50,'UpDefensa':25,'Descripcion':'Sube defensa propia'},'Alice Nonomura',1)
+AlanGado = Peleador(80,100,120,{'Golpe':50,'DownDefensa':25,'Descripcion':'Baja defensa enemiga'},'Alan Gado',1)
+YugoOgami = Peleador(120,80,100,{'Golpe':50,'UpAtack':25,'Descripcion':'Sube ataque propia'},'Yugo Ogami',1)
+JennyBurtory = Peleador(100,120,80,{'Golpe':50,'DownAtack':25,'Descripcion':'Baja ataque enemigo'},'Jenny Burtory',1)
 
 finalboss = Peleador(120,120,120,{'ata1':'ata1'},'Final Boss',1)
 
 player = Peleador(0,0,0,{'ata1':'ata1'},'nombre',1)
 
-peleadores = [pl1,pl2,pl3,pl4]
+peleadores = [AliceNonomura,AlanGado,YugoOgami,JennyBurtory]
 FBlist=[finalboss]
-num_peleadores=len(peleadores)
+
+
+
 
 
 def game_intro():
@@ -108,50 +111,91 @@ def choose_character():
             if evento.type == pygame.QUIT:
                 pygame.quit
                 quit()
+            elif evento.type==KEYDOWN  and evento.key == evento.key==K_1:
+                print ('click - choose chatacter NUBER 1')
+                player = peleadores[0]
+                #player.stats()
+                peleadores.pop(0)
+                gamedisplay.fill(black)
+                set_players(player, peleadores)
+                exit()
+            elif evento.type==KEYDOWN  and evento.key == evento.key==K_2:
+                print ('click - choose chatacter NUBER 2')
+                player = peleadores[1]
+                peleadores.pop(1)
+                gamedisplay.fill(black)
+                set_players(player, peleadores)
+                exit()   
+            elif evento.type==KEYDOWN  and evento.key == evento.key==K_3:
+                print ('click - choose chatacter NUBER 3')
+                player = peleadores[2]
+                peleadores.pop(2)
+                gamedisplay.fill(black)
+                set_players(player, peleadores)
+                exit()      
+            elif evento.type==KEYDOWN  and evento.key == evento.key==K_4:
+                print ('click - choose chatacter NUBER 4')
+                player = peleadores[3]
+                peleadores.pop(3)
+                gamedisplay.fill(black)
+                set_players(player, peleadores)
+                exit()      
             elif evento.type==KEYDOWN:
                 print ("nada")
                 pass
+            else:
+                pass
 
-            while num_peleadores>0:
-                print ('numero de peleadores')
-                print (num_peleadores)
-                sys.exit()
 
-                if  evento.type==KEYDOWN  and evento.key == evento.key==K_1:
-                    print ('click - choose chatacter NUBER 1')
-                    print (peleadores)
-                    player = peleadores[0]
-                    peleadores.pop(0)
-                    print (peleadores)
-                    sys.exit()
-                    gamedisplay.fill(black)
-                    first_fight(player,pl2)
-                    exit()
-                else:
-                    pass
+def set_players(player, peleadores):
+    num_peleadores = int((len(peleadores)))
 
-def first_fight(player,enemy):
+    if num_peleadores >0 :
+        #print ("-------PLAYER-------")
+        #player.stats()
+        #print ("-------PELEADORES-------")
+        #print (("Numero de peleadores: ")+str(num_peleadores))
+        #for i in peleadores:
+        #    i.stats()
+        
+        sorteo = (randrange(0,num_peleadores))
+        #print ("-------ENEMY-------")
+        enemy = peleadores[sorteo]
+        #enemy.stats()
+        peleadores.pop(sorteo)
+        #print ("-------PELADORES RESTANTES-------")
+        #for i in peleadores:
+            #i.stats()
+
+        fight(player,enemy,peleadores)
+        exit()
+    else:
+        print("NO HAY PELEADORES")
+
+
+def fight(player,enemy,peleadores):
     fighting = player
     img_choose=pygame.image.load('choose_character.png')
     intro = True
 
     print ("------FIGHTER-----")
     fighting.stats()
-    print ("------PLAYER-----")
-    player.stats()
     print ("------ENEMY-----")
     enemy.stats()
+    print ("------PELEADORES-----")
+    for i in peleadores:
+        i.stats()
 
     while intro:
         for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
                 pygame.quit
                 quit()
-        click=pygame.mouse.get_pressed()
-        if click[0]==1:
+
+        if evento.type==KEYDOWN  and evento.key == evento.key==K_1:
             print ('click -- first fight')            
             gamedisplay.fill(black)
-            second_fight()
+            sys.exit()
             exit()
         
         gamedisplay.blit(img_choose,(0,0))
