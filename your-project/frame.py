@@ -36,6 +36,12 @@ class Peleador:
                "Movimientos:",self.movimientos , "\n"
                "Vive:",self.vivo , "\n" )
 
+    def hacerdano(self):
+        pass
+
+    def recibirdano(self):
+        pass
+
 AliceNonomura = Peleador(100,100,100,{'Golpe':50,'UpDefensa':25,'Descripcion':'Sube defensa propia'},'Alice Nonomura',1)
 AlanGado = Peleador(80,100,120,{'Golpe':50,'DownDefensa':25,'Descripcion':'Baja defensa enemiga'},'Alan Gado',1)
 YugoOgami = Peleador(120,80,100,{'Golpe':50,'UpAtack':25,'Descripcion':'Sube ataque propia'},'Yugo Ogami',1)
@@ -47,9 +53,6 @@ player = Peleador(0,0,0,{'ata1':'ata1'},'nombre',1)
 
 peleadores = [AliceNonomura,AlanGado,YugoOgami,JennyBurtory]
 FBlist=[finalboss]
-
-
-
 
 
 def game_intro():
@@ -171,6 +174,7 @@ def set_players(player, peleadores):
         exit()
     else:
         print("NO HAY PELEADORES")
+        credit()
 
 
 def fight(player,enemy,peleadores):
@@ -182,9 +186,9 @@ def fight(player,enemy,peleadores):
     fighting.stats()
     print ("------ENEMY-----")
     enemy.stats()
-    print ("------PELEADORES-----")
-    for i in peleadores:
-        i.stats()
+    #print ("------PELEADORES-----")
+    #for i in peleadores:
+    #    i.stats()
 
     while intro:
         for evento in pygame.event.get():
@@ -192,12 +196,6 @@ def fight(player,enemy,peleadores):
                 pygame.quit
                 quit()
 
-        if evento.type==KEYDOWN  and evento.key == evento.key==K_1:
-            print ('click -- first fight')            
-            gamedisplay.fill(black)
-            sys.exit()
-            exit()
-        
         gamedisplay.blit(img_choose,(0,0))
         pygame.display.update()
         clock.tick(60)
@@ -246,7 +244,7 @@ def fight(player,enemy,peleadores):
         pygame.display.update()
         clock.tick(60)
 
-def final_boss():
+#def final_boss():
     img_choose=pygame.image.load('finalboss.png')
 
     intro = True
