@@ -1,12 +1,12 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Title of My Project
-*[Your Name]*
+*Ahorcado*
 
-*[Your Cohort, Campus & Date]*
+*[DAPTM, CDMX, 18 abr 2020]*
 
 ## Content
-- [Project Description](#project-description)
+- [Project Description)
 - [Workflow](#workflow)
 - [Organization](#organization)
 - [Links](#links)
@@ -14,12 +14,12 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+El juego se trata de completar una palabra partiendo de una única letra (sin acentos). Cada letra correcta se va colocando en los espacios. Cada error, va dibujando la figura del ahorcado (intentos máximos: 5) 
 
 <a name="workflow"></a>
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
+https://www.lucidchart.com/publicSegments/view/32d540d0-482b-478c-8fcf-bc637512f9eb/image.png 
 
 <a name="organization"></a>
 
@@ -29,4 +29,7 @@ How did you organize yourself? Did you use any tools?
 <a name="links"></a>
 
 ## Links
-Include the links to your repository and slides. Feel free to include any other links associated to your project. 
+Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
+
+[Repository](https://github.com/rshernandez10/project-build-your-own-game)  
+[Slides](https://1drv.ms/p/s!AgVvjlOm5EKep0ZoW3fAiKqg3BfG?e=6jhlEl)   
