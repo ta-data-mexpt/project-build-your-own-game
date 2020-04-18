@@ -18,8 +18,8 @@ Ahorcado se trata de completar una palabra partiendo de una única letra (sin ac
 
 El juego termina cuando:
 
-	* El jugador completa la palabra.
-	* El jugador llega al número máximo de intentos, mostrando la figura del ahorcado completa.
+	El jugador completa la palabra.
+	El jugador llega al número máximo de intentos, mostrando la figura del ahorcado completa.
 
 <a name="workflow"></a>
 
@@ -36,7 +36,6 @@ https://www.lucidchart.com/publicSegments/view/32d540d0-482b-478c-8fcf-bc637512f
 <a name="links"></a>
 
 ## Links
-Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
 
 [Repository](https://github.com/rshernandez10/project-build-your-own-game)  
 [Slides](https://1drv.ms/p/s!AgVvjlOm5EKep0ZoW3fAiKqg3BfG?e=6jhlEl)   
