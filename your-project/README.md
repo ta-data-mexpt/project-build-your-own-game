@@ -32,6 +32,7 @@ You can find them in the 'Mastermind Kanban.xls' file.
 ## Organization
 I used an online tool, Trello.
 You can find the Kanban board following: https://trello.com/b/gR1l7jW1/mastermind
+Also used Visio to draw the workflow diagram
 
 <a name="links"></a>
 
@@ -39,7 +40,7 @@ You can find the Kanban board following: https://trello.com/b/gR1l7jW1/mastermin
 Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
 
 [Repository](https://github.com/Mapachuy/project-build-your-own-game/tree/master/your-project)  
-[Slides](https://slides.com/)  
+[Slides](https://slides.com/jsan/deck)  
 [Trello](https://trello.com/b/gR1l7jW1/mastermind)  
 
 

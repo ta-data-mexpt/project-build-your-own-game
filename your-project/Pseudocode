@@ -14,5 +14,5 @@
 6.	Determinar el resultado que se va a dar.
 7.	Desplegar el resultado #de manera ordenada#.
 8.	Si el código no es el correcto, se vuelve a solicitar que el jugador ingrese otro código.
-9.	Si el código es el correcto, se despliega la leyenda: ¡Felicidades, eres el maestro de la mente!
-10.	Si el jugador llega a ocho intentos sin lograr encontrar el código, se termina el juego y se despliega la leyenda: “Lo sentimos, quizá Darwin no estaba en lo cierto después de todo” junto con el código secreto.
+9.	Si el código es el correcto, se despliega la leyenda: Congrats, you are the MAPASTERMIND CHAMPION!
+10.	Si el jugador llega a ocho intentos sin lograr encontrar el código, se termina el juego y se despliega la leyenda: “Don't worry, maybe Darwin wasn´t right after all...” junto con el código secreto.

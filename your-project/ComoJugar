@@ -33,13 +33,13 @@ Este resultado será indicado de la siguiente manera:
 a)	Se considera que devolverá tres resultados, uno por cada dígito.
 b)	Es importante considerar que estos resultados NO necesariamente se corresponden con las posiciones del código intentado.
 c)	La respuesta puede tomar tres posibles valores:
-a.	0 : Significa que uno de los dígitos introducidos no es parte del código
-b.	X : Indica que uno de los dígitos introducidos coincide con el código, pero que no está en la posición correcta.
-c.	& : Representa que uno de los dígitos introducidos es parte del código, y que además está en la posición correcta.
+a.	X : Significa que uno de los dígitos introducidos no es parte del código
+b.	0 : Indica que uno de los dígitos introducidos coincide con el código, pero que no está en la posición correcta.
+c.	1 : Representa que uno de los dígitos introducidos es parte del código, y que además está en la posición correcta.
 d)	De esta forma, podemos tener algunos ejemplos:
-a.	000 : Ninguno de los tres dígitos introducidos forma parte del código
-b.	0XX : Dos de los dígitos introducidos están en el código, pero no es su lugar (si el código es, por ejemplo, 548 y el introducido es 856, obtendremos 0XX)
-c.	00& : Uno de los dígitos introducidos es parte del código y además, está en el lugar correcto (si el código sigue siendo 548, y se introduce 532, se obtendrá 00&)
+a.	XXX : Ninguno de los tres dígitos introducidos forma parte del código
+b.	X00 : Dos de los dígitos introducidos están en el código, pero no es su lugar (si el código es, por ejemplo, 548 y el introducido es 856, obtendremos X00)
+c.	XX1 : Uno de los dígitos introducidos es parte del código y además, está en el lugar correcto (si el código sigue siendo 548, y se introduce 532, se obtendrá XX1)
 El jugador vuelve a intentarlo, la computadora provee la respuesta.
 Se repite hasta que el juego termine en triunfo o se llegue a ocho intentos y se declare el fracaso del jugador.
 
@@ -56,7 +56,7 @@ Se repite hasta que el juego termine en triunfo o se llegue a ocho intentos y se
 ## Cómo ganar
 
 Cómo ganar:
-Se declara ganador al jugador cuando acierta al código y la computadora devuelve: &&&.
+Se declara ganador al jugador cuando acierta al código y la computadora devuelve el cógido secreto
 
 
 
