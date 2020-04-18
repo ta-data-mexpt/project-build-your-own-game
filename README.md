@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
+# Creación del juego ahorcado
 *Ahorcado*
 
 *[DAPTM, CDMX, 18 abr 2020]*
@@ -14,7 +14,12 @@
 <a name="project-description"></a>
 
 ## Project Description
-El juego se trata de completar una palabra partiendo de una única letra (sin acentos). Cada letra correcta se va colocando en los espacios. Cada error, va dibujando la figura del ahorcado (intentos máximos: 5) 
+Ahorcado se trata de completar una palabra partiendo de una única letra (sin acentos). Cada letra correcta se va colocando en los espacios. Cada error, va dibujando la figura del ahorcado (intentos máximos: 5) 
+
+El juego termina cuando:
+
+	* El jugador completa la palabra.
+	* El jugador llega al número máximo de intentos, mostrando la figura del ahorcado completa.
 
 <a name="workflow"></a>
 
@@ -24,7 +29,9 @@ https://www.lucidchart.com/publicSegments/view/32d540d0-482b-478c-8fcf-bc637512f
 <a name="organization"></a>
 
 ## Organization
-How did you organize yourself? Did you use any tools?
+- Trabajo del juego por las tardes
+- Diseño del flujograma
+- Elaboración paso a paso
 
 <a name="links"></a>
 
