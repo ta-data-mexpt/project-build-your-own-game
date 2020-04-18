@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
+# Oware - African game 
 Efrain Ramos García
 
 *Data Analytics(Part-Time), Campus Mexico, 18/04/2020*
