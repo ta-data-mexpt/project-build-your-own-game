@@ -30,7 +30,7 @@ https://whimsical.com/2Qz8H5d28AS12b1S8jEyeF
 
 ## Organization
 How did you organize yourself? Did you use any tools?
-
+https://docs.google.com/presentation/d/1x2liT1zN4dNIW19ERAIl7sc6UbX2yBRvm182A-MLA0Y/edit?usp=sharing
 
 <a name="links"></a>
 
