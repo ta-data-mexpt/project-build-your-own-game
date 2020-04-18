@@ -47,11 +47,11 @@ def principal():
   #print(palabra)
 
   horca = ["          !=======|", #cuelga
-          "                   |", #cabeza 
-          "                   |", #brazos
-          "                   |", #cuerpo
-          "                   |", #piernas
-          "    __________ ____|"] #pies
+           "                  |", #cabeza 
+           "                  |", #brazos
+           "                  |", #cuerpo
+           "                  |", #piernas
+           "    ______________|"] #pies
 
   ahorcado = ["          !=======|", #cuelga
               "          0       |", #cabeza 
@@ -61,7 +61,7 @@ def principal():
               "    _____-__-_____|"] #pies
 
   letras_todas = []
-  fallos = 1
+  fallos = 0
 
   resultado = []
 
