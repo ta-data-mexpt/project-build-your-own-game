@@ -1,27 +1,16 @@
 semilleros = 12
 semillas = 4
 continuar_juego = -2
-sin_ganador = -1
 
 # -----------------------------Bases de tablero---------------------------------------
 
 
-def creaciontab(tab):
-    print('------------------------------------------------------------------')
-    creaciontab_cad = ''
-    mitadsemilleros = 6
-    creaciontab_cad += semilleros_sup(tab, mitadsemilleros)
-    creaciontab_cad += '\n'
-    creaciontab_cad += semilleros_inf(tab, mitadsemilleros)
-    return creaciontab_cad
-    # Para hacer un recorrido en el sentido de las manecillas de reloj,
-    # se toma los primeros seis elementos del arreglo para usarlos como
-    # 'semilleros'para el jugardor 2
-
-
 def semilleros_sup(tab, mitadsemilleros):
-    # Semilleros superiores
-    # Damos formato y colocamos indices a los semilleros
+    '''
+    La función devolera una cadena con los semilleros uperiores ya con índices.
+    El arreglo que toma de un principio son las posiciones [5-11] del arreglo original
+    '''
+
     mitadsemilleros = 6
     cadsemillero = ''
 
@@ -31,6 +20,10 @@ def semilleros_sup(tab, mitadsemilleros):
 
 
 def semilleros_inf(tab, mitadsemilleros):
+    '''
+    La función devolera una cadena con los semilleros inferiores ya con índices.
+    El arreglo que toma de un principio son las primeras 6 posiciones del arreglo original
+    '''
     # Semilleros inferiores
     # Damos formato y colocamos indices a los semilleros
     mitadsemilleros = 6
@@ -41,7 +34,23 @@ def semilleros_inf(tab, mitadsemilleros):
     return cadsemillero
 
 
+def creaciontab(tab):
+    '''
+    Está función creará el tablero completo a partir de los semilleros inferiores y superioes
+    '''
+    print('------------------------------------------------------------------')
+    creaciontab_cad = ''
+    mitadsemilleros = 6
+    creaciontab_cad += semilleros_sup(tab, mitadsemilleros)
+    creaciontab_cad += '\n'
+    creaciontab_cad += semilleros_inf(tab, mitadsemilleros)
+    return creaciontab_cad
+
+
 def mostrar_recoleccion(marcador):
+    '''
+    Está función nos actualizará cuántas semillas lleva cada jugador
+    '''
     print('------------------------------------------------------------------')
     marcadorcad = "Semillas recogidas:\tJugador 1: {}\tJugador 2: {}\n"
     return marcadorcad.format(marcador[0], marcador[1])
@@ -50,10 +59,11 @@ def mostrar_recoleccion(marcador):
 
 
 def selec_mover(tab, semillero):
-    # al brindar el tablero y la posición del semillero
-    # se recolectaran las semillas existentes
-    # además en la posición original habrá '0' semillas
-    # no importando si hay 11 semillas
+    '''
+    Al brindar el tablero y la posición del semillero se recolectaran las semillas existentes,
+    además en la posición original habrá '0' semillas, no importando si hay 11 semillas para mover
+    '''
+
     semillas_recolectar = tab[semillero]
     tab[semillero] = 0
     x = semillero
@@ -67,6 +77,9 @@ def selec_mover(tab, semillero):
 
 
 def comprobar_posicion(jugador, tab, posicion):
+    '''
+    Esta función nos permitira evaluar si es posible recolectar las semillas del semillero
+    '''
     si_semillero_vacio = (tab[posicion] == 0)
     si_jugador_mueve = (jugador['posicion_min'] <= posicion < jugador['posicion_max'])
     movimiento_posible = si_jugador_mueve and not si_semillero_vacio
@@ -80,6 +93,10 @@ def comprobar_posicion(jugador, tab, posicion):
 
 
 def recoleccion_semillas(jugador, tab, posicion, marcador):
+    '''
+    Esta función permitira recolectar las semillas si hay 2 o 3 semillas en el semillero
+    al finalizar la colocación de estas
+    '''
     posicion_final, tablero_modificado = selec_mover(tab, posicion)
 
     def recoleccion_dsemilleros(a):
@@ -93,8 +110,10 @@ def recoleccion_semillas(jugador, tab, posicion, marcador):
 
 
 def verificar_semilleros_recolectar(jugador, tab, posicion, marcador = [0, 0]):
-    # Esta funcion ubicará los semilleros que se
-    # pueden cosechar. Retornando un tablero actualizado
+    '''
+    Esta funcion ubicará los semilleros que se pueden cosechar. Retornando un tablero actualizado
+    '''
+
     info_semilleros = tab[:]
     info_marcador = marcador[:]
     semilleros_actualizados, marcador_actualizado = recoleccion_semillas(jugador, info_semilleros, posicion, info_marcador)
@@ -105,21 +124,25 @@ def verificar_semilleros_recolectar(jugador, tab, posicion, marcador = [0, 0]):
 
 
 def ubicacion_semillas_movidas(jugador, tab, marcador = [0, 0]):
-    # Esta funcion ubicará la primera posición
-    # de la semilla colocada hasta la última
+    '''
+    Esta funcion ubicará la primera posición de las semilla puestas hasta la última
+    '''
+
     posicion_min = jugador['posicion_min']
     posicion_max = jugador['posicion_max']
-    no_recoger = False
+    recoger = False
 
     for i in range(posicion_min, posicion_max):
         posible_cosecha = verificar_semilleros_recolectar(jugador, tab, i, marcador)
-        no_recoger = no_recoger and posible_cosecha
-    return not no_recoger
+        recoger = recoger and posible_cosecha
+    return not recoger
 
 
 def verificar_ganador(jugador, tab, posicion, estado_del_juego, marcador):
-    # Esta función nos permitira cortar el juego mediante
-    # el cierto número de semillas recolectadas.
+    '''
+    Esta función nos permitira cortar el juego mediante el cierto número de semillas ya recolectadas.
+    '''
+
     if estado_del_juego == continuar_juego:
         eleccion_min = jugador['eleccion_min']
         elecion_max = jugador['eleccion_max']
@@ -134,12 +157,14 @@ def verificar_ganador(jugador, tab, posicion, estado_del_juego, marcador):
             estado_del_juego = 1 - numero_de_jugador
         return marcador, estado_del_juego
 
-# ----------------------------------Flujo de juego----------------------------------------------------
+# ----------------------------------Flujo de juego y actualización de tablero------------------------------------------
 
 
 def semillero_a_recolectar(tab, jugador_en_turno):
-    # Con esta función obtendremos la posición
-    # de la cual se recogeran las semillas
+    '''
+    Con esta función obtendremos la posición de la cual se recogeran las semillas del semillero seleccionado
+    '''
+
     posicion = int(input("Jugador ({}), elije semillero a cosecharas: ".format(jugador_en_turno['numero'] + 1)))
 
     while not comprobar_posicion(jugador_en_turno, tab, posicion):
@@ -148,8 +173,11 @@ def semillero_a_recolectar(tab, jugador_en_turno):
 
 
 def caracteristicas_de_jugador(numero, jugador=None):
-    # Esta función retornará características del jugador
-    # para las funcionalidades del juego
+    '''
+    Esta función definira a los jugadores y sus características en un diccionario para ser consultar los valores
+    en posteriores funciones
+    '''
+
     mitad_semilleros = 6
     return {'numero': numero, 'posicion_min': numero * mitad_semilleros,
         'posicion_max': (1 + numero) * mitad_semilleros, 'eleccion_min': (1 - numero) * mitad_semilleros,
@@ -157,8 +185,10 @@ def caracteristicas_de_jugador(numero, jugador=None):
 
 
 def turno_en_juego(jugador_en_turno, tab, posicion, marcador):
-    # Esta función nos retornará la información
-    # del turno que se esta jugando
+    '''
+    Esta función nos retornará la información del turno que se esta jugando
+    '''
+
     cosechar_semillas = verificar_semilleros_recolectar(jugador_en_turno, tab, posicion, marcador,)
 
     if cosechar_semillas:
@@ -168,8 +198,43 @@ def turno_en_juego(jugador_en_turno, tab, posicion, marcador):
 
 
 def mostrar_estado_del_juego(estado_del_juego):
-    # Esta funcion solo devolverá quien fue el ganador
-    if estado_del_juego == sin_ganador:
-        return "\nMucho tiempo y no hubo ganador. ¡Echen un volado!"
+    '''
+    Esta función lee el estado actual del juego para así retornar un ganador
+    '''
+
+    # if estado_del_juego == sin_ganador:
+    #    return "¡Echen un volado para decidir ganador!"
     return "El ganador fue: {}.".format(estado_del_juego)
 
+
+#-------------------------------------Funcion principal------------------------------------
+
+
+def inicio_de_juego(jugador_uno, jugador_dos):
+    '''
+    Esta función es la principal y la cual ira llamando a las otras funciones.
+    '''
+    print("Bienvenido al OWARE")
+    tab = [semillas] * semilleros
+    print(creaciontab(tab))
+    jugadores = [caracteristicas_de_jugador(0, jugador_uno), caracteristicas_de_jugador(1, jugador_dos)]
+    numero_jugador_en_turno = 0
+    marcador = [0] * 2
+    estado_del_juego = continuar_juego
+    posicion = -1
+
+    while estado_del_juego == continuar_juego:
+        jugador_en_turno = jugadores[numero_jugador_en_turno]
+        posicion = semillero_a_recolectar(tab, jugador_en_turno)
+
+        if posicion < 0:
+            print("Intenta de nuevo: ")
+            continue
+
+        tab, marcador = turno_en_juego(jugador_en_turno, tab, posicion, marcador)
+        marcador, estado_del_juego = verificar_ganador(jugador_en_turno, tab, posicion, estado_del_juego, marcador)
+        numero_jugador_en_turno = 1 - numero_jugador_en_turno
+        print(creaciontab(tab))
+        print(mostrar_recoleccion(marcador))
+
+    print(mostrar_estado_del_juego(estado_del_juego))

@@ -1,32 +1,34 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Title of My Project
-*[Efrain Ramos García]*
+Efrain Ramos García
 
-*[Your Cohort, Campus & Date]*
-
-## Content
-- [Project Description](#project-description)
-- [Workflow](#workflow)
-- [Organization](#organization)
-- [Links](#links)
+*Data Analytics(Part-Time), Campus Mexico, 18/04/2020*
 
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+The next project simulate the african game call it 'Oware'. 
+I choose this project because in my first classes of programming, along with a friend, we did this game in _Turbo C_
 
 <a name="workflow"></a>
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
+This project was very challenging. Due to I discover the game is a constant _"call of functions"_, 
+I decided to use functional programming in order to improve this topic. This was the order of function creation:
+* Seedbeds creation _(General board)_
+* Game rules & functionalities
+* Give continuity to the game
+* Main function where other functions are called
 
 <a name="organization"></a>
 
 ## Organization
-How did you organize yourself? Did you use any tools?
+In order to proof the functions, they were tested first in jupyter notebook after I copied in a py file.
 
 <a name="links"></a>
 
 ## Links
-Include the links to your repository and slides. Feel free to include any other links associated to your project. 
+* https://github.com/EfrainRG/project-build-your-own-game
+* https://es.wikipedia.org/wiki/Oware
+* https://www.youtube.com/watch?v=UGDLAU0_gcE
