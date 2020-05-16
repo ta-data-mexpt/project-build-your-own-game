@@ -1,7 +1,7 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# HANG(re)
+*[Alberto Arriada]*
 
 *[Your Cohort, Campus & Date]*
 
@@ -14,7 +14,7 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+Elegí un juego que involucre el aprendizaje de nuevas palabras en inglés, enfocado a las que aparecen en los examenes GRE. El juego tiene cargadas cerca de 20 palabras con su significado. 
 
 <a name="workflow"></a>
 
