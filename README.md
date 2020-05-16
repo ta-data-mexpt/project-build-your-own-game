@@ -1,14 +1,14 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Juego Enigma
-*[Eduardo Heros]*
+*Eduardo Heros*
 
-*[Ironhack, México]*
+*Ironhack, México*
 ---
 
 ## Project Description
 Desde hace mucho tiempo me han fascinado los algoritmos de cifrado, la creación de la máquina Enigma en la Segunda
-Guerra mundial, impuso el desarrollo de las Ciencias de la computación como nunca antes. 
+Guerra mundial, impulsó el desarrollo de las Ciencias de la computación como nunca antes. 
 
 El actual proyecto es un juego que consiste en cifrar el texto introducido inspitado en esta famosa máquina.
 
