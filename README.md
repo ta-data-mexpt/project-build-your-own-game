@@ -6,10 +6,10 @@
 *[Data Part Time, Campus México, Octubre 2021]*
 
 ## Content
-- [Project Description]
-- [Workflow]
-- [Organization]
-- [Links]
+- [Project Description](#project-description)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
 
 <a name="project-description"></a>
 
@@ -18,7 +18,7 @@ We wanted to replicate our favorite card game,the classic game of blackjack or 2
 
 <a name="workflow"></a>
 
-## Workflow
+## Project Description
 Here you can see the flowchart we follow for the development of the game code.
 ####![](https://github.com/Tan30s/project-build-your-own-game/blob/master/Blackjack.png)
 
