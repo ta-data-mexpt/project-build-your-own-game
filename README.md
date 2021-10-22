@@ -14,7 +14,9 @@
 <a name="project-description"></a>
 
 ## Project Description
-We wanted to replicate our favorite card game,the classic game of blackjack or 21 .You will play against the computer and whoever gets the score closest to 21 and not higher than this, will be the winner.This can be played by running the code `file blacjack.py` from a terminal, or if you prefer in the notebook `Code practice.ipynb`.In the link below you can find these files.
+We wanted to replicate our favorite card game,the classic game of blackjack or 21 .You will play against the computer and whoever gets the score closest to 21 and not higher than this, will be the winner.This can be played by running the file `Codigo de blacjack.py` from a terminal, or if you prefer in the notebook `Práctica del codigo.ipynb`.
+In the link below you can find these files.
+This game is in spanish.
 
 <a name="workflow"></a>
 
