@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Blackjack
+*Tania Jiménez, Luis Martínez*
 
-*[Your Cohort, Campus & Date]*
+*[Data Part Time, Campus México, Octubre 2021]*
 
 ## Content
 - [Project Description](#project-description)
@@ -14,19 +14,23 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+We wanted to replicate our favorite card game,the classic game of blackjack or 21 .You will play against the computer and whoever gets the score closest to 21 and not higher than this, will be the winner.This can be played by running the file `Codigo de blacjack.py` from a terminal, or if you prefer in the notebook `Práctica del codigo.ipynb`.
+In the link below you can find these files.
+This game is in spanish.
 
 <a name="workflow"></a>
 
-## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
+## Project Description
+Here you can see the flowchart we follow for the development of the game code.
+![](https://github.com/Tan30s/project-build-your-own-game/blob/master/Blackjack.png)
 
 <a name="organization"></a>
 
 ## Organization
-How did you organize yourself? Did you use any tools?
+We use the Trello board to organize ourselves in times and tasks to be performed and the lucidchart page to relate our flowchart.
 
 <a name="links"></a>
 
 ## Links
-Include the links to your repository and slides. Feel free to include any other links associated to your project. 
+https://github.com/Tan30s/Blackjack.git
+ 
