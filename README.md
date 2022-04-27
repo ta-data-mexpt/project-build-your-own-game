@@ -21,8 +21,8 @@ Elegimos este juego porque se podían utilizar varias de las herramientas aprend
 
 ## Workflow
 1. Lluvia de ideas para definir el juego.
-2. Generación de diagrama de flujo del juego elegido de forma general (pseudocódigo)
-3. Definición de funciones y métodos para desarrollar nuestro código
+2. Generación de diagrama de flujo del juego elegido de forma general (pseudocódigo).
+3. Definición de funciones y métodos para desarrollar nuestro código.
 4. Consultas a trainers para mejorar código.
 5. Ajuste finos del código.
 6. Elaboración de presentación, demos y demás entregables.
