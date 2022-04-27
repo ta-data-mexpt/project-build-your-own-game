@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Internacional Karaoke
+*Francisca Zúñiga*
 
-*[Your Cohort, Campus & Date]*
+*Data Analyst Part Time, Remote & Abril 2202*
 
 ## Content
 - [Project Description](#project-description)
@@ -14,7 +14,8 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+El juego es un karaoke que le pide al usuario elegir un género musical y completar la letra de la canción cuando lo pide.
+Elegimos este juego porque se podían utilizar varias de las herramientas aprendidas.
 
 <a name="workflow"></a>
 
@@ -24,7 +25,7 @@ Outline the workflow you used in your project. What were the steps you went thro
 <a name="organization"></a>
 
 ## Organization
-How did you organize yourself? Did you use any tools?
+Organizamos la estructura del juego en miro.com
 
 <a name="links"></a>
 
