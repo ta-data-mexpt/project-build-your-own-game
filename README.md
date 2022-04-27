@@ -36,5 +36,6 @@ Nos reunimos 3 veces por semana.
 <a name="links"></a>
 
 ## Links
--https://github.com/fezunig1/project-build-your-own-game.git
--https://miro.com/app/board/uXjVO70r_ng=/
+- [https://github.com/fezunig1/project-build-your-own-game.git]
+
+- [https://miro.com/app/board/uXjVO70r_ng=/]
