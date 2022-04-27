@@ -20,14 +20,21 @@ Elegimos este juego porque se podían utilizar varias de las herramientas aprend
 <a name="workflow"></a>
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
+1. Lluvia de ideas para definir el juego.
+2. Generación de diagrama de flujo del juego elegido de forma general (pseudocódigo)
+3. Definición de funciones y métodos para desarrollar nuestro código
+4. Consultas a trainers para mejorar código.
+5. Ajuste finos del código.
+6. Elaboración de presentación, demos y demás entregables.
 
 <a name="organization"></a>
 
 ## Organization
-Organizamos la estructura del juego en miro.com
+Organizamos la estructura del juego en miro.com y una vez terminado esto, comenzamos a crear nuestro código.
+Nos reunimos 3 veces por semana.
 
 <a name="links"></a>
 
 ## Links
-Include the links to your repository and slides. Feel free to include any other links associated to your project. 
+-https://github.com/fezunig1/project-build-your-own-game.git
+-https://miro.com/app/board/uXjVO70r_ng=/
