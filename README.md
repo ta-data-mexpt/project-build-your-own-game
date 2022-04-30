@@ -40,4 +40,4 @@ Nos reunimos 3 veces por semana.
 
 - [https://miro.com/app/board/uXjVO70r_ng=/]
 
--[https://docs.google.com/presentation/d/1oVQfv4fkdDOpgeYioThLcQc1SjCT_ycE/edit?usp=sharing&ouid=109334772086933235270&rtpof=true&sd=true]
+- [https://docs.google.com/presentation/d/1oVQfv4fkdDOpgeYioThLcQc1SjCT_ycE/edit?usp=sharing&ouid=109334772086933235270&rtpof=true&sd=true]
