@@ -39,3 +39,5 @@ Nos reunimos 3 veces por semana.
 - [https://github.com/fezunig1/project-build-your-own-game.git]
 
 - [https://miro.com/app/board/uXjVO70r_ng=/]
+
+-[https://docs.google.com/presentation/d/1oVQfv4fkdDOpgeYioThLcQc1SjCT_ycE/edit?usp=sharing&ouid=109334772086933235270&rtpof=true&sd=true]
