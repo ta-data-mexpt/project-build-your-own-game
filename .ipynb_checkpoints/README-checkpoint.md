@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # ¡La Pirámide!
-*Octavio López\nJaviera Córdova*
+*Octavio López - Javiera Córdova*
 
-*[Your Cohort, Campus & Date]*
+*Campus Remote - APR 2022*
 
 ## Content
 - [Project Description](#project-description)
@@ -11,22 +11,16 @@
 - [Organization](#organization)
 - [Links](#links)
 
-<a name="project-description"></a>
-
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+The game consists in a pyramid of flipped cards (the back of the card is seen). 'X' amount of cards is also deal to the players. In order, each player will flip 1 card from the pyramid (ex: player 1 first, then player 2), and those who have the flipped card in their deal cards, drink from their glass for 5 seconds.
 
-<a name="workflow"></a>
+We choose this proyect, beacuse we considerer that is fun and original.
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
-
-<a name="organization"></a>
+https://miro.com/app/board/uXjVO5Wpd-o=/?share_link_id=693269458754
 
 ## Organization
-How did you organize yourself? Did you use any tools?
-
-<a name="links"></a>
+We use miro (flowchart), Jupyter Lab (code) and Power Point (slides presentation).
 
 ## Links
-Include the links to your repository and slides. Feel free to include any other links associated to your project. 
+https://github.com/javieracordovaj/project-build-your-own-game
