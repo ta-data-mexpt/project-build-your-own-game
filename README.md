@@ -12,7 +12,7 @@
 - [Links](#links)
 
 ## Project Description
-Resumen: El juego consiste en una pirámide de cartas volteadas (donde se ve la parte trasera de la carta (en este caso serán coordenadas), donde también se le reparte x cantidad de cartas a los jugadores. En orden, cada jugador irá volteando 1 carta de la pirámide a la vez (ej: primero jugador 1, luego jugador 2), y quienes tengan la carta volteada en las cartas que se le repartieron a cada jugador, bebe de su vaso 5 segundos.
+The game consists in a pyramid of flipped cards (the back of the card is seen). 'X' amount of cards is also deal to the players. In order, each player will flip 1 card from the pyramid (ex: player 1 first, then player 2), and those who have the flipped card in their deal cards, drink from their glass for 5 seconds.
 
 We choose this proyect, beacuse we considerer that is fun and original.
 
