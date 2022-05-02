@@ -1,8 +1,7 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # ¡La Pirámide!
-*Octavio López
-Javiera Córdova*
+*Octavio López - Javiera Córdova*
 
 *Campus Remote - APR 2022*
 
