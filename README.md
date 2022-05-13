@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Internacional Karaoke
+*Francisca Zúñiga*
 
-*[Your Cohort, Campus & Date]*
+*Data Analyst Part Time, Remote & Abril 2202*
 
 ## Content
 - [Project Description](#project-description)
@@ -14,19 +14,30 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+El juego es un karaoke que le pide al usuario elegir un género musical y completar la letra de la canción cuando lo pide.
+Elegimos este juego porque se podían utilizar varias de las herramientas aprendidas.
 
 <a name="workflow"></a>
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
+1. Lluvia de ideas para definir el juego.
+2. Generación de diagrama de flujo del juego elegido de forma general (pseudocódigo).
+3. Definición de funciones y métodos para desarrollar nuestro código.
+4. Consultas a trainers para mejorar código.
+5. Ajuste finos del código.
+6. Elaboración de presentación, demos y demás entregables.
 
 <a name="organization"></a>
 
 ## Organization
-How did you organize yourself? Did you use any tools?
+Organizamos la estructura del juego en miro.com y una vez terminado esto, comenzamos a crear nuestro código.
+Nos reunimos 3 veces por semana.
 
 <a name="links"></a>
 
 ## Links
-Include the links to your repository and slides. Feel free to include any other links associated to your project. 
+- [https://github.com/fezunig1/project-build-your-own-game.git]
+
+- [https://miro.com/app/board/uXjVO70r_ng=/]
+
+- [https://docs.google.com/presentation/d/1oVQfv4fkdDOpgeYioThLcQc1SjCT_ycE/edit?usp=sharing&ouid=109334772086933235270&rtpof=true&sd=true]

@@ -1,0 +1,14 @@
+OPCIONES:
+
+reemplazar palabras por el asterisco y al llegar al * se pida el imput
+
+random de partes de la canción
+
+delay del mensaje:
+def mensaje_con_delay(mensaje, delay_mensaje=0.015, delay_post=0):
+    for char in mensaje:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(delay_mensaje)
+
+    time.sleep(delay_post)
