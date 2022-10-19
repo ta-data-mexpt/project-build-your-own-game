@@ -1,0 +1,86 @@
+##Adivina quién
+
+import random
+
+##Diccionarios para Los Simpson
+
+homero_simpson = {'Nombre':'Homero',
+                  'Edad':'adulta',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+bart_simpson = {'Nombre':'Bart',
+                  'Edad':'niñez',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+lisa_simpson = {'Nombre':'Lisa',
+                  'Edad':'niñez',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+marge_simpson = {'Nombre':'Marge',
+                  'Edad':'adulta',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+maggie_simpson = {'Nombre':'Maggie',
+                  'Edad':'bebé',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+señor_burns = {'Nombre':'Burns',
+                  'Edad':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+nelson_muntz = {'Nombre':'',
+                  'Edad':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+moe_syzslak = {'Nombre':'',
+                  'Edad':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+milhouse = {'Nombre':'',
+                  'Edad':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
+ned_flanders = {'Nombre':'',
+                  'Edad':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':'',
+                   '':''}
