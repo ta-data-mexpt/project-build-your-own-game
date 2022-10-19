@@ -1,10 +1,10 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Adivina Quién
-*Ana Lucía González
-Liliana León*
+*Ana Lucía González*
+*Liliana León*
 
-*[Your Cohort, Campus & Date]*
+*DAPT SEP 2022, Mexico City*
 
 ## Content
 - [Project Description](#project-description)
