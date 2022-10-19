@@ -1,10 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Adivina Quién
-*Ana Lucía González*
-*Liliana León*
+# Title of My Project
+*[Your Name]*
 
-*DAPT SEP 2022, Mexico City*
+*[Your Cohort, Campus & Date]*
 
 ## Content
 - [Project Description](#project-description)
@@ -15,17 +14,17 @@
 <a name="project-description"></a>
 
 ## Project Description
-We created a simple Guess Who Game in Python.
+Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
 
 <a name="workflow"></a>
 
 ## Workflow
-https://lucid.app/documents/view/48e48287-ec05-4e19-856f-669832bd25d9
+Outline the workflow you used in your project. What were the steps you went through?
 
 <a name="organization"></a>
 
 ## Organization
-We used Trello to divide tasks.
+How did you organize yourself? Did you use any tools?
 
 <a name="links"></a>
 
