@@ -1,7 +1,8 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Adivina Quién
+*Ana Lucía González
+Liliana León*
 
 *[Your Cohort, Campus & Date]*
 
@@ -14,17 +15,17 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+We created a simple Guess Who Game in Python.
 
 <a name="workflow"></a>
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
+https://lucid.app/documents/view/48e48287-ec05-4e19-856f-669832bd25d9
 
 <a name="organization"></a>
 
 ## Organization
-How did you organize yourself? Did you use any tools?
+We used Trello to divide tasks.
 
 <a name="links"></a>
 
