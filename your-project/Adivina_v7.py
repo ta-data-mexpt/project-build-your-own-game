@@ -710,7 +710,7 @@ if seleccion.lower() == 'lord of the rings'or seleccion.lower() == ('the lord of
                 preguntausuarioCount += 1
 
             elif inputusuario.lower() == 'reino' or inputusuario.lower() == 'reyno' or inputusuario.lower() == 'rey':
-                print('\033[0;32m'+ personaje_escogido_d['Reyno']+'\033[0;m')
+                print('\033[0;32m'+ personaje_escogido_d['Reino']+'\033[0;m')
                 preguntausuarioCount += 1
 
             elif inputusuario.lower() == 'estatura' or inputusuario.lower() == 'altura':
